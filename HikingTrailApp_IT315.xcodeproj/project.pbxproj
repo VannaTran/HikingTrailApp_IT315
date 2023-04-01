@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C807604129A2BDFB0062E867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807604029A2BDFB0062E867 /* AppDelegate.swift */; };
+		C807604329A2BDFB0062E867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807604229A2BDFB0062E867 /* SceneDelegate.swift */; };
+		C807604529A2BDFB0062E867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807604429A2BDFB0062E867 /* ViewController.swift */; };
+		C807604829A2BDFB0062E867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C807604629A2BDFB0062E867 /* Main.storyboard */; };
+		C807604A29A2BDFC0062E867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C807604929A2BDFC0062E867 /* Assets.xcassets */; };
+		C807604D29A2BDFC0062E867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C807604B29A2BDFC0062E867 /* LaunchScreen.storyboard */; };
+		C8A4B28F29ABDA81005F2A0B /* HikingTrail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4B28E29ABDA81005F2A0B /* HikingTrail.swift */; };
+		C8C00D1D29BE94AE00F6F74B /* target_hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = C8C00D1C29BE94AE00F6F74B /* target_hit.wav */; };
+		C8C8387029B2AF61004DDACD /* Trekking-PNG-Images.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C8386F29B2AF61004DDACD /* Trekking-PNG-Images.png */; };
+		C8C8387329B2B187004DDACD /* billygoat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387129B2B187004DDACD /* billygoat.jpg */; };
+		C8C8387429B2B187004DDACD /* oldrag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387229B2B187004DDACD /* oldrag.jpg */; };
+		C8C8387629B2B25B004DDACD /* Sun-Mountain-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387529B2B25B004DDACD /* Sun-Mountain-logo.jpg */; };
+		C8C8388229B2F108004DDACD /* harpersferry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387729B2F108004DDACD /* harpersferry.jpg */; };
+		C8C8388329B2F108004DDACD /* ravensrock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387829B2F108004DDACD /* ravensrock.jpg */; };
+		C8C8388429B2F108004DDACD /* shenandoah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387929B2F108004DDACD /* shenandoah.jpeg */; };
+		C8C8388529B2F108004DDACD /* stonyman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387A29B2F108004DDACD /* stonyman.jpeg */; };
+		C8C8388629B2F108004DDACD /* burkelake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387B29B2F108004DDACD /* burkelake.jpg */; };
+		C8C8388729B2F108004DDACD /* greatfalls.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387C29B2F108004DDACD /* greatfalls.jpeg */; };
+		C8C8388829B2F108004DDACD /* bearfence.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387D29B2F108004DDACD /* bearfence.jpg */; };
+		C8C8388929B2F108004DDACD /* bullrun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387E29B2F108004DDACD /* bullrun.jpg */; };
+		C8C8388A29B2F108004DDACD /* bearrun.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387F29B2F108004DDACD /* bearrun.jpeg */; };
+		C8C8388B29B2F108004DDACD /* whiteoak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8388029B2F108004DDACD /* whiteoak.jpg */; };
+		C8C8388C29B2F108004DDACD /* wod.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8388129B2F108004DDACD /* wod.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C807603D29A2BDFB0062E867 /* HikingTrailApp_IT315.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikingTrailApp_IT315.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C807604029A2BDFB0062E867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C807604229A2BDFB0062E867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C807604429A2BDFB0062E867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C807604729A2BDFB0062E867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C807604929A2BDFC0062E867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C807604C29A2BDFC0062E867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C807604E29A2BDFC0062E867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A4B28E29ABDA81005F2A0B /* HikingTrail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingTrail.swift; sourceTree = "<group>"; };
+		C8C00D1C29BE94AE00F6F74B /* target_hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = target_hit.wav; sourceTree = "<group>"; };
+		C8C8386F29B2AF61004DDACD /* Trekking-PNG-Images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trekking-PNG-Images.png"; sourceTree = "<group>"; };
+		C8C8387129B2B187004DDACD /* billygoat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = billygoat.jpg; sourceTree = "<group>"; };
+		C8C8387229B2B187004DDACD /* oldrag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oldrag.jpg; sourceTree = "<group>"; };
+		C8C8387529B2B25B004DDACD /* Sun-Mountain-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sun-Mountain-logo.jpg"; sourceTree = "<group>"; };
+		C8C8387729B2F108004DDACD /* harpersferry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harpersferry.jpg; sourceTree = "<group>"; };
+		C8C8387829B2F108004DDACD /* ravensrock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ravensrock.jpg; sourceTree = "<group>"; };
+		C8C8387929B2F108004DDACD /* shenandoah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shenandoah.jpeg; sourceTree = "<group>"; };
+		C8C8387A29B2F108004DDACD /* stonyman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonyman.jpeg; sourceTree = "<group>"; };
+		C8C8387B29B2F108004DDACD /* burkelake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burkelake.jpg; sourceTree = "<group>"; };
+		C8C8387C29B2F108004DDACD /* greatfalls.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatfalls.jpeg; sourceTree = "<group>"; };
+		C8C8387D29B2F108004DDACD /* bearfence.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bearfence.jpg; sourceTree = "<group>"; };
+		C8C8387E29B2F108004DDACD /* bullrun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullrun.jpg; sourceTree = "<group>"; };
+		C8C8387F29B2F108004DDACD /* bearrun.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bearrun.jpeg; sourceTree = "<group>"; };
+		C8C8388029B2F108004DDACD /* whiteoak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteoak.jpg; sourceTree = "<group>"; };
+		C8C8388129B2F108004DDACD /* wod.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wod.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C807603A29A2BDFB0062E867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C807603429A2BDFB0062E867 = {
+			isa = PBXGroup;
+			children = (
+				C807603F29A2BDFB0062E867 /* HikingTrailApp_IT315 */,
+				C807603E29A2BDFB0062E867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C807603E29A2BDFB0062E867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C807603D29A2BDFB0062E867 /* HikingTrailApp_IT315.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C807603F29A2BDFB0062E867 /* HikingTrailApp_IT315 */ = {
+			isa = PBXGroup;
+			children = (
+				C8C00D1C29BE94AE00F6F74B /* target_hit.wav */,
+				C8C8387D29B2F108004DDACD /* bearfence.jpg */,
+				C8C8387F29B2F108004DDACD /* bearrun.jpeg */,
+				C8C8387E29B2F108004DDACD /* bullrun.jpg */,
+				C8C8387B29B2F108004DDACD /* burkelake.jpg */,
+				C8C8387C29B2F108004DDACD /* greatfalls.jpeg */,
+				C8C8387729B2F108004DDACD /* harpersferry.jpg */,
+				C8C8387829B2F108004DDACD /* ravensrock.jpg */,
+				C8C8387929B2F108004DDACD /* shenandoah.jpeg */,
+				C8C8387A29B2F108004DDACD /* stonyman.jpeg */,
+				C8C8388029B2F108004DDACD /* whiteoak.jpg */,
+				C8C8388129B2F108004DDACD /* wod.jpeg */,
+				C8C8387529B2B25B004DDACD /* Sun-Mountain-logo.jpg */,
+				C8C8387129B2B187004DDACD /* billygoat.jpg */,
+				C8C8387229B2B187004DDACD /* oldrag.jpg */,
+				C8C8386F29B2AF61004DDACD /* Trekking-PNG-Images.png */,
+				C807604029A2BDFB0062E867 /* AppDelegate.swift */,
+				C807604229A2BDFB0062E867 /* SceneDelegate.swift */,
+				C807604429A2BDFB0062E867 /* ViewController.swift */,
+				C807604629A2BDFB0062E867 /* Main.storyboard */,
+				C807604929A2BDFC0062E867 /* Assets.xcassets */,
+				C807604B29A2BDFC0062E867 /* LaunchScreen.storyboard */,
+				C807604E29A2BDFC0062E867 /* Info.plist */,
+				C8A4B28E29ABDA81005F2A0B /* HikingTrail.swift */,
+			);
+			path = HikingTrailApp_IT315;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C807603C29A2BDFB0062E867 /* HikingTrailApp_IT315 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C807605129A2BDFC0062E867 /* Build configuration list for PBXNativeTarget "HikingTrailApp_IT315" */;
+			buildPhases = (
+				C807603929A2BDFB0062E867 /* Sources */,
+				C807603A29A2BDFB0062E867 /* Frameworks */,
+				C807603B29A2BDFB0062E867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HikingTrailApp_IT315;
+			productName = HikingTrailApp_IT315;
+			productReference = C807603D29A2BDFB0062E867 /* HikingTrailApp_IT315.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C807603529A2BDFB0062E867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C807603C29A2BDFB0062E867 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C807603829A2BDFB0062E867 /* Build configuration list for PBXProject "HikingTrailApp_IT315" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C807603429A2BDFB0062E867;
+			productRefGroup = C807603E29A2BDFB0062E867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C807603C29A2BDFB0062E867 /* HikingTrailApp_IT315 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C807603B29A2BDFB0062E867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C8388429B2F108004DDACD /* shenandoah.jpeg in Resources */,
+				C807604D29A2BDFC0062E867 /* LaunchScreen.storyboard in Resources */,
+				C8C8387329B2B187004DDACD /* billygoat.jpg in Resources */,
+				C8C8388929B2F108004DDACD /* bullrun.jpg in Resources */,
+				C8C8388329B2F108004DDACD /* ravensrock.jpg in Resources */,
+				C8C00D1D29BE94AE00F6F74B /* target_hit.wav in Resources */,
+				C807604A29A2BDFC0062E867 /* Assets.xcassets in Resources */,
+				C8C8388B29B2F108004DDACD /* whiteoak.jpg in Resources */,
+				C8C8388529B2F108004DDACD /* stonyman.jpeg in Resources */,
+				C8C8388C29B2F108004DDACD /* wod.jpeg in Resources */,
+				C8C8388629B2F108004DDACD /* burkelake.jpg in Resources */,
+				C8C8387629B2B25B004DDACD /* Sun-Mountain-logo.jpg in Resources */,
+				C8C8388229B2F108004DDACD /* harpersferry.jpg in Resources */,
+				C8C8387029B2AF61004DDACD /* Trekking-PNG-Images.png in Resources */,
+				C8C8388729B2F108004DDACD /* greatfalls.jpeg in Resources */,
+				C8C8387429B2B187004DDACD /* oldrag.jpg in Resources */,
+				C807604829A2BDFB0062E867 /* Main.storyboard in Resources */,
+				C8C8388829B2F108004DDACD /* bearfence.jpg in Resources */,
+				C8C8388A29B2F108004DDACD /* bearrun.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C807603929A2BDFB0062E867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C807604529A2BDFB0062E867 /* ViewController.swift in Sources */,
+				C807604129A2BDFB0062E867 /* AppDelegate.swift in Sources */,
+				C8A4B28F29ABDA81005F2A0B /* HikingTrail.swift in Sources */,
+				C807604329A2BDFB0062E867 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C807604629A2BDFB0062E867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C807604729A2BDFB0062E867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C807604B29A2BDFC0062E867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C807604C29A2BDFC0062E867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C807604F29A2BDFC0062E867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C807605029A2BDFC0062E867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C807605229A2BDFC0062E867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HikingTrailApp_IT315/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gmu.HikingTrailApp-IT315";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C807605329A2BDFC0062E867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HikingTrailApp_IT315/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gmu.HikingTrailApp-IT315";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C807603829A2BDFB0062E867 /* Build configuration list for PBXProject "HikingTrailApp_IT315" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C807604F29A2BDFC0062E867 /* Debug */,
+				C807605029A2BDFC0062E867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C807605129A2BDFC0062E867 /* Build configuration list for PBXNativeTarget "HikingTrailApp_IT315" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C807605229A2BDFC0062E867 /* Debug */,
+				C807605329A2BDFC0062E867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C807603529A2BDFB0062E867 /* Project object */;
+}

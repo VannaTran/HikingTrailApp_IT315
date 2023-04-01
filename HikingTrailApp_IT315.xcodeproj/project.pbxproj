@@ -30,6 +30,7 @@
 		C8C8388A29B2F108004DDACD /* bearrun.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387F29B2F108004DDACD /* bearrun.jpeg */; };
 		C8C8388B29B2F108004DDACD /* whiteoak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8388029B2F108004DDACD /* whiteoak.jpg */; };
 		C8C8388C29B2F108004DDACD /* wod.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8388129B2F108004DDACD /* wod.jpeg */; };
+		C8CEF19429D7E67C007E92C9 /* HikingTrailListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEF19329D7E67C007E92C9 /* HikingTrailListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		C8C8387F29B2F108004DDACD /* bearrun.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bearrun.jpeg; sourceTree = "<group>"; };
 		C8C8388029B2F108004DDACD /* whiteoak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteoak.jpg; sourceTree = "<group>"; };
 		C8C8388129B2F108004DDACD /* wod.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wod.jpeg; sourceTree = "<group>"; };
+		C8CEF19329D7E67C007E92C9 /* HikingTrailListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingTrailListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				C807604B29A2BDFC0062E867 /* LaunchScreen.storyboard */,
 				C807604E29A2BDFC0062E867 /* Info.plist */,
 				C8A4B28E29ABDA81005F2A0B /* HikingTrail.swift */,
+				C8CEF19329D7E67C007E92C9 /* HikingTrailListController.swift */,
 			);
 			path = HikingTrailApp_IT315;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C807604529A2BDFB0062E867 /* ViewController.swift in Sources */,
+				C8CEF19429D7E67C007E92C9 /* HikingTrailListController.swift in Sources */,
 				C807604129A2BDFB0062E867 /* AppDelegate.swift in Sources */,
 				C8A4B28F29ABDA81005F2A0B /* HikingTrail.swift in Sources */,
 				C807604329A2BDFB0062E867 /* SceneDelegate.swift in Sources */,

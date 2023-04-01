@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dxF-1j-JFd">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -8,6 +8,102 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="fKs-nm-aIT">
+            <objects>
+                <viewController id="IUe-av-LWc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0ET-Mk-5d9">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xqX-EG-Sbr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fsP-2D-N2k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2385" y="220"/>
+        </scene>
+        <!--Hiking Trails-->
+        <scene sceneID="FBb-SL-d7a">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="GTm-ec-W0T" customClass="HikingTrailListController" customModule="HikingTrailApp_IT315" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="T6I-7J-X57">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="GxZ-rg-2sP" detailTextLabel="Zf9-hf-Qzo" imageView="kIa-3X-paz" style="IBUITableViewCellStyleSubtitle" id="dhd-rg-LzS">
+                                <rect key="frame" x="0.0" y="50" width="430" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dhd-rg-LzS" id="jCF-mS-ywB">
+                                    <rect key="frame" x="0.0" y="0.0" width="430" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GxZ-rg-2sP">
+                                            <rect key="frame" x="88.333333333333314" y="6.0000000000000009" width="25" height="14.333333333333334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zf9-hf-Qzo">
+                                            <rect key="frame" x="88.333333333333314" y="22.333333333333336" width="43.666666666666664" height="14.333333333333334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="bearfence.jpg" id="kIa-3X-paz">
+                                            <rect key="frame" x="8" y="0.0" width="65.333333333333314" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" identifier="showHT" id="Ist-zw-KCS"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="GTm-ec-W0T" id="9kF-NU-shT"/>
+                            <outlet property="delegate" destination="GTm-ec-W0T" id="IPU-uY-eGC"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Hiking Trails" id="HdK-Wm-GEh"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JTr-hO-2PN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1506" y="-387"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WD6-J4-k1j">
+            <objects>
+                <navigationController id="3WH-nK-MA6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TLW-8s-wRq">
+                        <rect key="frame" x="0.0" y="59" width="430" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="GTm-ec-W0T" kind="relationship" relationship="rootViewController" id="lYb-PZ-WqC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lsd-qz-edI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2385" y="-387"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="rV2-aR-mWh">
+            <objects>
+                <splitViewController primaryBackgroundStyle="sidebar" id="dxF-1j-JFd" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="3WH-nK-MA6" kind="relationship" relationship="masterViewController" id="7kE-ef-eOY"/>
+                        <segue destination="IUe-av-LWc" kind="relationship" relationship="detailViewController" id="rZ2-eS-V9L"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bcq-ev-DUA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3264" y="-85"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -117,7 +213,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0D-XN-m4H">
-                                <rect key="frame" x="241" y="826" width="100" height="33"/>
+                                <rect key="frame" x="305" y="824" width="100" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Open Site"/>
@@ -132,8 +228,17 @@
                                     <action selector="SWValuedChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="IGk-oW-tMv"/>
                                 </connections>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8j-Hx-v9o">
+                                <rect key="frame" x="134" y="824" width="157" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Additional Details"/>
+                                <connections>
+                                    <segue destination="LzB-E3-1zE" kind="showDetail" identifier="showDetails" id="TbZ-02-Qat"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfe-KL-qgO">
-                                <rect key="frame" x="73" y="826" width="87" height="35"/>
+                                <rect key="frame" x="28" y="824" width="87" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrowshape.right.fill" catalog="system" title="Next"/>
@@ -159,12 +264,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53.02325581395349" y="-34.763948497854081"/>
+            <point key="canvasLocation" x="-558.1395348837209" y="-312.2317596566524"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4uI-eh-Vpe">
+            <objects>
+                <viewController id="LzB-E3-1zE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ttY-Vf-f1h">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="y2r-wm-Wio"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qpr-Ob-oQJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="271" y="-312"/>
         </scene>
     </scenes>
     <resources>
         <image name="Trekking-PNG-Images.png" width="329.77099609375" height="329.77099609375"/>
         <image name="arrowshape.right.fill" catalog="system" width="128" height="104"/>
+        <image name="bearfence.jpg" width="120" height="80.879997253417969"/>
         <image name="billygoat.jpg" width="944.6400146484375" height="628.662841796875"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

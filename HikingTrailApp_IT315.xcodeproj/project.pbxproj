@@ -19,18 +19,8 @@
 		C8C8387329B2B187004DDACD /* billygoat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387129B2B187004DDACD /* billygoat.jpg */; };
 		C8C8387429B2B187004DDACD /* oldrag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387229B2B187004DDACD /* oldrag.jpg */; };
 		C8C8387629B2B25B004DDACD /* Sun-Mountain-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387529B2B25B004DDACD /* Sun-Mountain-logo.jpg */; };
-		C8C8388229B2F108004DDACD /* harpersferry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387729B2F108004DDACD /* harpersferry.jpg */; };
-		C8C8388329B2F108004DDACD /* ravensrock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387829B2F108004DDACD /* ravensrock.jpg */; };
-		C8C8388429B2F108004DDACD /* shenandoah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387929B2F108004DDACD /* shenandoah.jpeg */; };
-		C8C8388529B2F108004DDACD /* stonyman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387A29B2F108004DDACD /* stonyman.jpeg */; };
-		C8C8388629B2F108004DDACD /* burkelake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387B29B2F108004DDACD /* burkelake.jpg */; };
-		C8C8388729B2F108004DDACD /* greatfalls.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387C29B2F108004DDACD /* greatfalls.jpeg */; };
-		C8C8388829B2F108004DDACD /* bearfence.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387D29B2F108004DDACD /* bearfence.jpg */; };
-		C8C8388929B2F108004DDACD /* bullrun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387E29B2F108004DDACD /* bullrun.jpg */; };
-		C8C8388A29B2F108004DDACD /* bearrun.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8387F29B2F108004DDACD /* bearrun.jpeg */; };
-		C8C8388B29B2F108004DDACD /* whiteoak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8388029B2F108004DDACD /* whiteoak.jpg */; };
-		C8C8388C29B2F108004DDACD /* wod.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8388129B2F108004DDACD /* wod.jpeg */; };
 		C8CEF19429D7E67C007E92C9 /* HikingTrailListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEF19329D7E67C007E92C9 /* HikingTrailListController.swift */; };
+		C8E46E7129EC52DC008F8E67 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E46E7029EC52DC008F8E67 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,18 +38,8 @@
 		C8C8387129B2B187004DDACD /* billygoat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = billygoat.jpg; sourceTree = "<group>"; };
 		C8C8387229B2B187004DDACD /* oldrag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oldrag.jpg; sourceTree = "<group>"; };
 		C8C8387529B2B25B004DDACD /* Sun-Mountain-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sun-Mountain-logo.jpg"; sourceTree = "<group>"; };
-		C8C8387729B2F108004DDACD /* harpersferry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harpersferry.jpg; sourceTree = "<group>"; };
-		C8C8387829B2F108004DDACD /* ravensrock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ravensrock.jpg; sourceTree = "<group>"; };
-		C8C8387929B2F108004DDACD /* shenandoah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shenandoah.jpeg; sourceTree = "<group>"; };
-		C8C8387A29B2F108004DDACD /* stonyman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonyman.jpeg; sourceTree = "<group>"; };
-		C8C8387B29B2F108004DDACD /* burkelake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burkelake.jpg; sourceTree = "<group>"; };
-		C8C8387C29B2F108004DDACD /* greatfalls.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatfalls.jpeg; sourceTree = "<group>"; };
-		C8C8387D29B2F108004DDACD /* bearfence.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bearfence.jpg; sourceTree = "<group>"; };
-		C8C8387E29B2F108004DDACD /* bullrun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullrun.jpg; sourceTree = "<group>"; };
-		C8C8387F29B2F108004DDACD /* bearrun.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bearrun.jpeg; sourceTree = "<group>"; };
-		C8C8388029B2F108004DDACD /* whiteoak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whiteoak.jpg; sourceTree = "<group>"; };
-		C8C8388129B2F108004DDACD /* wod.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wod.jpeg; sourceTree = "<group>"; };
 		C8CEF19329D7E67C007E92C9 /* HikingTrailListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingTrailListController.swift; sourceTree = "<group>"; };
+		C8E46E7029EC52DC008F8E67 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,17 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				C8C00D1C29BE94AE00F6F74B /* target_hit.wav */,
-				C8C8387D29B2F108004DDACD /* bearfence.jpg */,
-				C8C8387F29B2F108004DDACD /* bearrun.jpeg */,
-				C8C8387E29B2F108004DDACD /* bullrun.jpg */,
-				C8C8387B29B2F108004DDACD /* burkelake.jpg */,
-				C8C8387C29B2F108004DDACD /* greatfalls.jpeg */,
-				C8C8387729B2F108004DDACD /* harpersferry.jpg */,
-				C8C8387829B2F108004DDACD /* ravensrock.jpg */,
-				C8C8387929B2F108004DDACD /* shenandoah.jpeg */,
-				C8C8387A29B2F108004DDACD /* stonyman.jpeg */,
-				C8C8388029B2F108004DDACD /* whiteoak.jpg */,
-				C8C8388129B2F108004DDACD /* wod.jpeg */,
 				C8C8387529B2B25B004DDACD /* Sun-Mountain-logo.jpg */,
 				C8C8387129B2B187004DDACD /* billygoat.jpg */,
 				C8C8387229B2B187004DDACD /* oldrag.jpg */,
@@ -117,6 +86,7 @@
 				C807604E29A2BDFC0062E867 /* Info.plist */,
 				C8A4B28E29ABDA81005F2A0B /* HikingTrail.swift */,
 				C8CEF19329D7E67C007E92C9 /* HikingTrailListController.swift */,
+				C8E46E7029EC52DC008F8E67 /* WebViewController.swift */,
 			);
 			path = HikingTrailApp_IT315;
 			sourceTree = "<group>";
@@ -179,25 +149,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C8388429B2F108004DDACD /* shenandoah.jpeg in Resources */,
 				C807604D29A2BDFC0062E867 /* LaunchScreen.storyboard in Resources */,
 				C8C8387329B2B187004DDACD /* billygoat.jpg in Resources */,
-				C8C8388929B2F108004DDACD /* bullrun.jpg in Resources */,
-				C8C8388329B2F108004DDACD /* ravensrock.jpg in Resources */,
 				C8C00D1D29BE94AE00F6F74B /* target_hit.wav in Resources */,
 				C807604A29A2BDFC0062E867 /* Assets.xcassets in Resources */,
-				C8C8388B29B2F108004DDACD /* whiteoak.jpg in Resources */,
-				C8C8388529B2F108004DDACD /* stonyman.jpeg in Resources */,
-				C8C8388C29B2F108004DDACD /* wod.jpeg in Resources */,
-				C8C8388629B2F108004DDACD /* burkelake.jpg in Resources */,
 				C8C8387629B2B25B004DDACD /* Sun-Mountain-logo.jpg in Resources */,
-				C8C8388229B2F108004DDACD /* harpersferry.jpg in Resources */,
 				C8C8387029B2AF61004DDACD /* Trekking-PNG-Images.png in Resources */,
-				C8C8388729B2F108004DDACD /* greatfalls.jpeg in Resources */,
 				C8C8387429B2B187004DDACD /* oldrag.jpg in Resources */,
 				C807604829A2BDFB0062E867 /* Main.storyboard in Resources */,
-				C8C8388829B2F108004DDACD /* bearfence.jpg in Resources */,
-				C8C8388A29B2F108004DDACD /* bearrun.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C807604529A2BDFB0062E867 /* ViewController.swift in Sources */,
+				C8E46E7129EC52DC008F8E67 /* WebViewController.swift in Sources */,
 				C8CEF19429D7E67C007E92C9 /* HikingTrailListController.swift in Sources */,
 				C807604129A2BDFB0062E867 /* AppDelegate.swift in Sources */,
 				C8A4B28F29ABDA81005F2A0B /* HikingTrail.swift in Sources */,
